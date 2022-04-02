@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(59, 32, 158);
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: rgb(158, 156, 170);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(59, 32, 158);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>HIT EVOLVE</h2>
+</header>
+
+<section>
+  <nav>
+    
+    <div class="logo">
+        <h3>YOUR NAVIGATION BAR</h3>
+		<p>Farikanai Makubire</p>
+    </div>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">contact</a></li>
+    </ul>
+  </nav>
+  
+  
+  <article>
+  
+    <h1>Welcome to our first Website</h1>
+    
+
+    <p>LADIES AND GENTLEMEN LET US CLONE AWAY</p>
+
+
+    <h2>What i have learnt so far</h2>
+    <ol>
+        <li>HTML</li>
+        <li>GOOGLING</li>
+        <li>INSPECTING</li>
+        
+        
+    </ol>
+    <p>Am proud of my new career path</p>
+
+    
+    <h2>Bonus : Optional extra credit</h2>
+
+    <p>Can you figure out how to make a picture a link</p>
+    <a href="https://www.hit.ac.zw/">
+    <img src="CSS%20Template_files/cover.jpg" alt="" width="280px">
+    </a>
+</article>
+</section>
+
+<footer>
+  <p>Copyright of HIT EVOLVE</p>
+</footer>
+
+
+
+
+</body></html>
